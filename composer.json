@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "compile": [
+      "chmod -R 777 var/",
+      "chmod 777 var/rar/unrar"
+      "chmod 777 rar/unrar"
+    ]
+  }
+}
