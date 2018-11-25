@@ -1,7 +1,7 @@
 <?php
 ######## Account Info ########
-$upload_acc['zippyshare_com']['user'] = ''; //Set your userid/alias
-$upload_acc['zippyshare_com']['pass'] = ''; //Set your password
+$upload_acc['zippyshare_com']['user'] = 'asagishi'; //Set your userid/alias
+$upload_acc['zippyshare_com']['pass'] = 'exrange19'; //Set your password
 ########################
 
 $_GET['proxy'] = isset($_GET['proxy']) ? $_GET['proxy'] : '';
