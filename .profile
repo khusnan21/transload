@@ -1,1 +1,1 @@
-chmod -r 777 rar/rar
+chmod -R 777 rar
