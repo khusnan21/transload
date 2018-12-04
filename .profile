@@ -1,2 +1,2 @@
-chmod -R 777 rar
-chmod -R 777 files
+chmod -R 755 rar
+chmod -R 755 files
