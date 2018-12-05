@@ -24,7 +24,7 @@ $options = array (
   array (
     'test' => 'test',
   ),
-  'template_used' => 'plugmod',
+  'template_used' => 'netblue',
   'default_language' => 'en',
   'show_all' => true,
   'server_info' => true,
