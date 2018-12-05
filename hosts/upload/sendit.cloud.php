@@ -4,6 +4,7 @@ if (!defined('RAPIDLEECH')) exit;
 $_T8 = array('v' => 3); // Version of this config file. (Do Not Edit)
 
 /* # Plugin's Settings # */
+$_T8['domain'] = 'sendit.cloud'; // May require the www. (Check first if the site adds the www.).
 $_T8['anonUploadDisable'] = false; // Disallow non-registered users upload. (XFS Pro)
 $_T8['anonUploadLimit'] = 0; // File-size limit for non-registered users (MB) | 0 = Plugin's limit | (XFS Pro)
 
