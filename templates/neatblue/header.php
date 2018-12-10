@@ -24,6 +24,12 @@ pic1.src="templates/neatblue/images/ajax-loading.gif";
 /* ]]> */
 </script>
 <script src="classes/js.js"></script>
+<script src="/js/jquery.checkboxes-1.2.2.js"></script>
+<script type="text/javascript">
+jQuery(function($) {
+    $('#table_filelist').checkboxes('range', true);
+});
+</script>
 <?php
 if ($GLOBALS['options']['ajax_refresh']) { echo '<script src="classes/ajax_refresh.js"></script>'.$nn; }
 if ($GLOBALS['options']['flist_sort']) { echo '<script src="classes/sorttable.js"></script>'.$nn; }
