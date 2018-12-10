@@ -70,6 +70,7 @@ $options = array (
     7 => '.asp',
     8 => '.aspx',
     9 => '.cgi',
+    10 => '.url',
   ),
   'forbidden_filetypes_block' => false,
   'rename_these_filetypes_to' => '.xxx',
