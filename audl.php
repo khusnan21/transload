@@ -413,7 +413,7 @@ function resetProgress() {
 											</table>
 										</td>
 									</tr>
-									<tr><td><label><input type="checkbox" name="server_side" value="on" onclick="javascript:var displ=this.checked?'':'none';document.getElementById('serverside').style.display=displ;" />&nbsp;<?php echo lang(43); ?></label></td></tr>
+									<tr><td><label><input type="checkbox" name="server_side" value="on" onclick="javascript:var displ=this.checked?'':'none';document.getElementById('serverside').style.display=displ;" checked="checked" />&nbsp;<?php echo lang(43); ?></label></td></tr>
 									<tr id="serverside" style="display: none;">
 										<td><input type="checkbox" name="server_dodelay" value="on" onclick="javascript:var displ=this.checked?'':'none';document.getElementById('serverdelay').style.display=displ;" /><?php echo lang(44); ?></td>
 										<td>&nbsp;</td>
