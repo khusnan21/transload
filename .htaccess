@@ -42,6 +42,9 @@ allow from all
 <files ajax.php>
 allow from all
 </files>
+<files upgd.php>
+allow from all
+</files>
 <files ~ "^\.">
 deny from all
 </files>
