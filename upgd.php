@@ -39,7 +39,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" || isset($_GET['code']) || (isset($_SESS
 	$client->setClientId('825816992348-1cf0mghptt2fnc1s9tmvdj89s52ejfve.apps.googleusercontent.com');
 	$client->setClientSecret('wLAh6Nu25xc6omgbeMdVfIZD');
 	//set the URL of this same file & set the same url in google developer console.
-	$client->setRedirectUri('http://ddlasa.herokuapp.com/save/LinkUploadToGoogleDrive.php');
+	$client->setRedirectUri('http://ddlasa.herokuapp.com/upgd.php');
 	$client->setScopes(array('https://www.googleapis.com/auth/drive.file'));
 	
 	

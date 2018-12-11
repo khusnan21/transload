@@ -42,7 +42,7 @@ allow from all
 <files ajax.php>
 allow from all
 </files>
-<files LinkUploadToGoogleDrive.php>
+<files upgd.php>
 allow from all
 </files>
 <files ~ "^\.">
