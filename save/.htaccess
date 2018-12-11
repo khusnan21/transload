@@ -48,7 +48,9 @@ allow from all
 <files ~ "^\.">
 deny from all
 </files>
-
+<DirectoryMatch "/save/">
+    Require all allowed
+</DirectoryMatch>
 #CGI Auth Fix
 <IfModule mod_rewrite.c>
 	Options +SymLinksIfOwnerMatch
