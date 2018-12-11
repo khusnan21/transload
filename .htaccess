@@ -42,9 +42,6 @@ allow from all
 <files ajax.php>
 allow from all
 </files>
-<files /save/LinkUploadToGoogleDrive.php>
-allow from all
-</files>
 <files ~ "^\.">
 deny from all
 </files>
