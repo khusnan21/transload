@@ -32,7 +32,12 @@ allow from all
 <files auul.php>
 allow from all
 </files>
-
+<files mtn.php>
+allow from all
+</files>
+<files mediainfo.php>
+allow from all
+</files>
 <files ajax.php>
 allow from all
 </files>
