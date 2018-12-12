@@ -69,7 +69,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" || isset($_GET['code']) || (isset($_SESS
 		// 3. removing the file from own server
 		//---------------------------------------------------------------
 		unlink($_SESSION['filename']); //remove the file
-		
+		session_destroy();
 	} else {
 		$authUrl = $client->createAuthUrl();
 		header('Location: ' . $authUrl);
