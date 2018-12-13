@@ -30,6 +30,11 @@ jQuery(function($) {
     $('#table_filelist').checkboxes('range', true);
 });
 </script>
+<script type="text/javascript">
+jQuery(function($) {
+    $('#table_filelist_au').checkboxes('range', true);
+});
+</script>
 <?php
 if ($GLOBALS['options']['ajax_refresh']) { echo '<script src="classes/ajax_refresh.js"></script>'.$nn; }
 if ($GLOBALS['options']['flist_sort']) { echo '<script src="classes/sorttable.js"></script>'.$nn; }
