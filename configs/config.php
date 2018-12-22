@@ -24,7 +24,7 @@ $options = array (
   array (
     'test' => 'test',
   ),
-  'template_used' => 'Leechbox',
+  'template_used' => 'leechbox',
   'default_language' => 'en',
   'show_all' => true,
   'server_info' => false,
