@@ -16,7 +16,9 @@ allow from all
 <files ~ "^deny.php">
 allow from all
 </files>
-
+<files ~ "^simple.php">
+allow from all
+</files>
 
 <files notes.php>
 allow from all
